@@ -1,21 +1,21 @@
 /**
  * 
  */
-package edu.fiu.cardgame;
+package edu.fiu.dvrobot;
 
 /**
- * @author mcdenisse
+ * @author Denisse Vadell
  *
  */
-public class Game {
+public class Remote {
 
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Deck mydeck = new Deck();
-		mydeck.runSelfCheck();
+		Rover robot = new Rover();
+		robot.runSelfCheck();
 	}
 
 }
